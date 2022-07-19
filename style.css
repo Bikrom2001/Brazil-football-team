@@ -1,0 +1,83 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+/*--------------------------------------------------------------
+# Header css
+--------------------------------------------------------------*/
+#header {
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.header-items {
+    background: #161616;
+    border-radius: 30px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-column-gap: 24px;
+}
+
+.header-description {
+    padding-left: 60px;
+}
+
+.header-description h2 {
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.header-description p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.header-description a {
+    background: #DD0000;
+    border-radius: 5px;
+    padding: 16px 25px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.header-description a i {
+    padding-left: 10px;
+}
+.header-player img {
+    width: 500px;
+    padding-top: 33px;
+}
+
+
+/*--------------------------------------------------------------
+# blog css
+--------------------------------------------------------------*/
